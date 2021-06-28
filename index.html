@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<head>
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Sign Up Form</title>
+    
+    <link rel ="stylesheet" href ="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <form class="form" id="login" method="post">
+            <h2 class="form__title">Login</h2>
+            <div class="form__message form__message--error"></div>
+             <div class="form__input-group">
+                 <input type="text" name ="username" class="form__input" autofocus autocomplete="Username" placeholder="Username" >
+             
+             </div>
+              
+             <div class="form__input-group">
+                <input type="password" name ="password" class="form__input" autocomplete="Password" placeholder="Password">
+                <small>Error Message</small>
+               
+
+
+            </div>
+            
+            
+
+            <button class="form__button"  type="submit">Submit</button>
+
+            <a href="index2.html" target="_blank" id="new_1"></a>
+
+             <p class="form__text">
+               <a href="./" class="form__link" id="linkCreateAccount">Don't have an account? Create account</a>
+             </p>
+        </form>
+        <form class="form form--hidden" id="createAccount">
+            <h2 class="form__title">CreateAccount</h2>
+            
+             <a href="index1.html" target="_blank" id="new"></a>
+
+          
+
+            <div class="form__input-group">
+                 <input type="text" name ="username" class="form__input" id="name" autocomplete="Username" placeholder="Username">
+             </div>
+
+             <div class="form__input-group">
+                <input type="email" name ="email-address" class="form__input" id="email" autocomplete="Email Address" placeholder="Email Address">
+            </div>
+              
+             <div class="form__input-group">
+                <input type="password" name ="password" class="form__input" id="password" autocomplete="Password" placeholder="Password">
+                <small>Error Message</small>
+            </div>
+
+            <div class="form__input-group">
+                <input type="password" name ="confirm_password" class="form__input" id="confirm_password" autocomplete="Confirm Password" placeholder="Confirm Password">
+                <small>Error Message</small>
+            </div>
+            
+            <button class="form__button" type="submit">Submit</button>
+             <p class="form__text" id ="sign_in">
+               <a href="./" class="form__link" id="linkLogin" >Already have an account? Sign in</a>
+             </p>
+             
+        </form>
+
+
+        
+    </div>
+
+
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="index_1.js"></script>
+    
+    
+</body>
+</html>
+   
