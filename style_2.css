@@ -1,0 +1,164 @@
+*{
+ 
+    box-sizing: border-box;
+   }
+   
+   html, body{
+       margin:0;
+       padding: 0;
+   }
+   header{
+       position: fixed;
+       top: 0;
+       left: 0;
+       right: 0;
+   }
+   
+   .row{
+       margin-top: 100px;
+   }
+   
+   
+   a{
+       text-decoration: none;
+       color: #555;
+   }
+   p{
+       color: #555;
+   }
+   
+   
+   .container
+   {
+       max-width: 1300px;
+       margin: auto;
+       padding-left: 25px;
+       padding-right: 25px;
+   }
+   
+   .row
+   {
+       border: 1px solid black;
+   }
+   div{
+       display:table;
+   }
+   #title
+   {
+       text-align: center;
+   }
+   select, option{
+     width: 167px;
+     height: 30px;
+   
+   }
+   
+   
+   .dimensions
+   {
+       margin-left: 10px;
+       
+   }
+   
+   #button_dimensions_1
+   {
+       height:30px;
+   }
+   #button_dimensions
+   {
+       background-color: lightblue;
+       display:inline-block;
+       text-align: center;
+       width:48.9%;
+       height:30px;
+       border-radius: 5px;
+       color: white;
+   }
+   #button_dimensions_1
+   {
+       background-color: lightcoral;
+       display:inline-block;
+       text-align: center;
+       
+       width:48.9%;
+       height:30px;
+       border-radius: 5px;
+       color: white;
+   }
+   
+   .product_1
+   {
+       border: 1px solid;
+       display:inline-block;
+   }
+
+   
+   #productname
+   {
+       margin: 8px 0px 1px 70px;
+       height:30px;
+   }
+   
+   
+   #productdesc
+   {
+       margin: 8px 0px 1px 77px;
+       height:30px;
+   }
+   
+   
+   #productprice
+   {
+       margin: 8px 0px 1px 77px;
+   }
+   
+   
+   #productquantity
+   {
+       margin: 8px 0px 1px 54px;
+       height:30px;
+   }
+   
+   #image
+    {
+    display: inline-block;
+
+    }
+   #buttonfile
+   {
+     margin: 0px 10px 10px 10px;
+     height: 30px;
+   }
+   
+   #add_product
+   {
+       margin-left: 145px;
+       height: 30px;
+       background-color: lightseagreen;
+       border-radius: 3px;
+       
+   }
+   #dim_1
+   {
+       color:white;
+   
+   }
+   
+   #img_1
+   {
+       height: 5rem;
+       width: 10rem;
+      
+       
+       
+       
+   }
+   #img_1 img
+   {
+       
+       width: 100px;
+       height: 100px;
+       margin-left: 100px;
+       
+   }
+  
